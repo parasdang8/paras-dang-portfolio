@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paras Dang - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f9;
+        }
+
+        /* Header Section */
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 10px 0;
+            font-size: 2.5em;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            margin: 8px 0;
+        }
+
+        /* Profile Image */
+        .profile-img-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: -60px;
+        }
+
+        .header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            border: 4px solid white;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Content Section */
+        .content {
+            padding: 20px;
+        }
+
+        /* Sections */
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .section h2 {
+            color: #4CAF50;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+        .section p, .section ul {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        /* List Style */
+        .section ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+
+        /* Contact Links */
+        .contact-links a {
+            color: #FFD700; /* Gold color for better visibility */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <div class="header">
+        <div class="profile-img-container">
+            <img src="./photo2.jpeg" alt="Paras Dang's Photo">
+        </div>
+        <h1>Paras Dang</h1>
+        <p>Email: dangparas5@gmail.com | Phone: +91 7017123089</p>
+        <p class="contact-links">
+            <a href="https://www.linkedin.com/in/paras-dang-72994a245" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/parasdang8" target="_blank">GitHub</a> |
+            <a href="https://www.geeksforgeeks.org/user/dangpa2qxd/" target="_blank">GeeksForGeeks</a> |
+            <a href="https://leetcode.com/u/parasdang8/" target="_blank">LeetCode</a>
+        </p>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#achievements">Achievements</a>
+    </div>
+
+    <!-- Content Section -->
+    <div class="content">
+        <!-- About Section -->
+        <div id="about" class="section">
+            <h2>About</h2>
+            <p>Welcome to the professional portfolio of Paras Dang – an Electronics and Computer Engineering student with a passion for transforming data into meaningful insights and innovative solutions. With experience in data science, natural language processing, and software development, this portfolio showcases a journey defined by curiosity, dedication, and a drive to make an impact in the tech industry. <em>'Strive not to be a success, but rather to be of value.'</em> Explore projects, skills, and achievements that reflect a commitment to continuous learning and excellence in engineering.</p>
+        </div>
+
+        <!-- Education Section -->
+        <div id="education" class="section">
+            <h2>Education</h2>
+            <ul>
+                <li>Bachelor of Engineering in Electronics and Computer Engineering, Thapar University - Present | CGPA: 8.36</li>
+                <li>12th Grade, Pinewood School - 2022 | Percentage: 89.4%</li>
+            </ul>
+        </div>
+
+        <!-- Experience Section -->
+        <div id="experience" class="section">
+            <h2>Professional Experience</h2>
+            <ul>
+                <li>Data Science and Analyst Intern, CoderOne (June 2024 - July 2024)
+                    <ul>
+                        <li>Worked on text summarization and user question answering projects using Python libraries for natural language processing.</li>
+                        <li>Performed data preprocessing and model training with pandas, NumPy, and scikit-learn to improve text processing and model accuracy.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Projects Section -->
+        <div id="projects" class="section">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>User Question Answering</strong> - Developed a machine learning model for answering questions based on large textual data, fine-tuning a transformer model to retrieve information efficiently.</li>
+                <li><strong>Text-to-Voice and Voice-to-Text</strong> - Built an app for converting text to speech and vice versa using Python’s Speech Recognition library.</li>
+                <li><strong>Text Summarization</strong> - Created a system for generating concise summaries of lengthy documents, assessing performance based on coherence and accuracy.</li>
+            </ul>
+        </div>
+
+        <!-- Skills Section -->
+        <div id="skills" class="section">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>Languages:</strong> C, C++, Python, ARM Assembly Language, Arduino, DLX programming, Verilog</li>
+                <li><strong>Frameworks:</strong> TensorFlow</li>
+                <li><strong>Databases:</strong> SQL</li>
+                <li><strong>Developer Tools:</strong> Visual Studio Code</li>
+                <li><strong>Libraries:</strong> NumPy, Matplotlib, SciPy, Pandas</li>
+                <li><strong>Core Concepts:</strong> Data Structures and Algorithms, Operating Systems, Computer Networks, Artificial Intelligence</li>
+            </ul>
+            <p><strong>Key Skills:</strong> Communication Skills, Problem Solving, Group Leadership</p>
+        </div>
+
+        <!-- Achievements Section -->
+        <div id="achievements" class="section">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Head of Operations Department, Thapar Model United Nations Society - Coordinated and managed activities to ensure smooth operation of all processes.</li>
+                <li>Ongoing upskilling with courses on Coursera, including Machine Learning and Deep Learning.</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
